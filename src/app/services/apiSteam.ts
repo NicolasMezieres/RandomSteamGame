@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export async function getListGameSteam() {
-  const url = "http://api.steampowered.com/ISteamApps/GetAppList/v2/";
+  const url = "https://api.steampowered.com/ISteamApps/GetAppList/v2/";
   const axiosConfig = {
     headers: {
       "content-type": "application/json; charset-utf8",
