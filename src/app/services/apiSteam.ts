@@ -5,8 +5,6 @@ export async function getListGameSteam() {
   const axiosConfig = {
     headers: {
       "content-type": "application/json; charset-utf8",
-      "Access-Control-Allow-Origin": "*",
-      "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
     },
   };
   return axios.get(url, axiosConfig);
