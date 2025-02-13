@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 import { getListGameSteam } from "./services/apiSteam";
 
 export default function Home() {
-  const [listGame, setListGame] = useState<[]>([]);
-  const [gameListSteam, setGameListSteam] = useState<any>();
+  // const [listGame, setListGame] = useState<[]>([]);
+  // const [gameListSteam, setGameListSteam] = useState<any>();
   useEffect(() => {
     if (typeof window !== "undefined") {
       getListGameSteam().then((res) => {
